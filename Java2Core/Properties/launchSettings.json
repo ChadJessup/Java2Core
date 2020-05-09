@@ -2,7 +2,7 @@
   "profiles": {
     "Java2Core": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Experiments\\kafka"
+      "commandLineArgs": "\"C:\\Experiments\\kafka\" \"C:\\Experiments\\KafkaCore\""
     }
   }
 }

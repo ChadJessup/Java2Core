@@ -1,11 +1,9 @@
-using System;
-using System.Collections.Generic;
+using Java2Core.Interfaces;
 using System.IO;
-using System.Text;
 
 namespace Java2Core
 {
-    public class ParsingContext
+    public class ApplicationContext
     {
         public string RootNamespace { get; set; } = "Kafka.Streams";
         public bool UseSameFolderStructure { get; set; } = true;
@@ -13,5 +11,7 @@ namespace Java2Core
         public DirectoryInfo? InputDirectory { get; set; }
         public DirectoryInfo? TemporaryDirectory { get; set; }
         public DirectoryInfo? OutputDirectory { get; set; }
+
+        public IDirectory? RootDirectory { get; set; }
     }
 }

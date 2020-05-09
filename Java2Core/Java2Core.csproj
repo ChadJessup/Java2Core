@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Mappings\" />
     <Folder Include="Rules\" />
-    <Folder Include="Parsers\" />
   </ItemGroup>
 
 </Project>

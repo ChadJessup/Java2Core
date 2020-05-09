@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
 
 namespace Java2Core.Models
 {
-    public class JavaSourceFile
+    public class JavaSourceFile : BaseFile
     {
+        public JavaSourceFile(FileInfo filePath)
+            : base(filePath, FileTypes.Source)
+        {
+        }
     }
 }
