@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Chad Jessup</Authors>
+    <Company>Good Enough Industries</Company>
+    <Product>Java2Core</Product>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+ <PropertyGroup>
+   <LangVersion>8.0</LangVersion>
+   <Deterministic>true</Deterministic>
+   <Nullable>enable</Nullable>
+ </PropertyGroup>
+</Project>
